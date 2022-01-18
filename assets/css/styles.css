@@ -567,12 +567,12 @@ img{
   }
 
   .qrcode__content{
-    display: block;
+    display: none;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 6em;
-    visibility: visible;
+    visibility: hidden;
   }
 }
 
@@ -641,6 +641,7 @@ img{
 
   .qrcode__content{
     display: block;
+    position: relative;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
