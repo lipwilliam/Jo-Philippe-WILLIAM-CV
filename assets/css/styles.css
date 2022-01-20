@@ -376,7 +376,6 @@ img{
   transition: .3s;
   font-weight: var(--font-medium);
   margin-top: var(--mb-1);
- 
 }
 
 .home__button-movil:hover{
@@ -580,6 +579,11 @@ img{
 @media screen and (min-width: 968px) {
   body{
     margin: 3rem 0;
+  }
+
+  .home__profession{
+    font-size: var(--normal-font-size);
+    margin-bottom: -3px;
   }
 
   .bd-container{
