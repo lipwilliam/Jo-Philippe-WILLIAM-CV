@@ -68,6 +68,16 @@ body.dark-theme{
   color: var(--title-color);
 }
 
+.bx-moon {
+  color: #c800c8;
+}
+
+.bx-sun {
+  color: rgb(229, 255, 0);
+}
+
+
+
 /*========== Font size variables to scale cv ==========*/
 body.scale-cv{
   --h1-font-size: .938rem;
@@ -382,6 +392,19 @@ img{
   background-color: var(--text-color);
   color: var(--container-color);
 }
+
+.bx-map {
+  color: #ff4040;
+}
+
+.bx-envelope {
+  color: #00a5a6;
+  font-size: large;
+}
+
+.bx-phone {
+  color: #ffce00;
+}
 /*========== SOCIAL ==========*/
 .social__container{
   grid-template-columns: max-content;
@@ -403,6 +426,10 @@ img{
 .social__icon{
   font-size: 1.2rem;
   margin-right: .25rem;
+}
+
+.bxl-linkedin-square {
+  color: #006ce3;
 }
 /*========== PROFILE ==========*/
 .profile__description{
@@ -475,7 +502,7 @@ img{
 .languages__name{
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-1);
+  color: var(--body-font);
 }
 
 .skills__circle, 
@@ -531,6 +558,9 @@ img{
   margin-bottom: .25rem;
 }
 
+.interests__container{
+  margin-bottom: -30px;
+}
 
 /* Scroll top */
 .scrolltop{
@@ -567,7 +597,7 @@ img{
 
   .qrcode__content{
     display: none;
-    margin-top: 50px;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     width: 6em;
