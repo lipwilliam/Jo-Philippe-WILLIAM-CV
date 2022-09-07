@@ -110,7 +110,7 @@ body.scale-cv{
 }
 
 .scale-cv .bd-container{
-  max-width: 595px;
+  max-width: 1080px;
 }
 
 .scale-cv .section{
@@ -146,7 +146,7 @@ body.scale-cv{
 
 .scale-cv .home__icon,
 .scale-cv .social__icon,
-.scale-cv.interests__icon{
+.scale-cv .interests__icon{
   font-size: 1rem;
 }
 
@@ -182,7 +182,7 @@ body.scale-cv{
 }
 
 .scale-cv .skills__name{
-  margin-bottom: 0px; 
+  margin-bottom: var(--mb-1); 
 }
 
 .scale-cv .interests__container{
@@ -282,7 +282,6 @@ img{
     transition: .3s;
   }
 }
-
 
 .nav__logo,
 .nav__toggle{
@@ -514,6 +513,10 @@ img{
   border-radius: 50%;
   margin-right: .75rem;
 }
+
+.hardskills {
+  white-space: nowrap; /*Permet de mettre les éléments sur une même ligne*/
+}
 /*========== CERTIFICATES ==========*/
 .certificate__title{
   font-size: var(--h3-font-size);
@@ -682,3 +685,4 @@ img{
   }
 
 }
+
